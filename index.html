@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Conway's Game of Life</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+  <div id="container">
+
+    <div id="left-container">
+      <img src="img.svg" id="img">
+    </div>
+
+    <div id="right-container">
+      <div id="simulation"></div>
+      <div id="text">Note: Click at a cell to change the state. </div>
+      <center>
+        <div class="btn-group">
+          <div id="btn-run" class="btn">RUN</div>
+          <div id="btn-stop" class="btn">STOP</div>
+        </div>
+      </center>
+    </div>
+
+  </div>
+
+
+
+  <script src="p5.js"></script>
+  <script src="simulation.js"></script>
+</body>
+</html>
